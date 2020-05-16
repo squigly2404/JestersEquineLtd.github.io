@@ -1,0 +1,94 @@
+body {
+    color: #555;
+    margin: 0;
+    font-family: Helvetica, Arial;
+}
+#header {
+    background-color: #1abc9c;
+    height: 150px;
+    line-height: 150px; /*sets line height to the same height as the header itself*/
+    font-family: Times New Roman;
+}
+#header a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+#header a:hover{
+    color: #222;
+}
+#header-title {
+    display:block;
+    float: left;
+    font-size: 20px;
+    font-weight: bold;
+}
+#header-nav {
+    display:block;
+    float: right;
+    margin-top: 0;  /*gets rid of space at top*/
+}
+#header-nav li {
+    display: inline;
+    padding-left: 20px; /*adds space bewtween the list items*/
+    vertical-align: top;
+}
+.container {
+    max-width: 1000px;
+    margin: 0 auto; /*positions the element in the hoiztonal center*/
+}
+#banner {
+    height:250px;
+    width: 1000px;
+}
+#sub-title {
+    font-family: Helvetica;
+    font-size: 18px;
+    color: #333;
+    margin-left: 15px;
+    font-weight: bold;
+}
+.post{
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 60px, 0;
+}
+.post-date {
+    color: #D2D2D2;
+    font-size:14px;
+    font-weight:bolf;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+h1, h2, h3, h4 {
+    color:#333;
+}
+p {
+    line-height: 1.5;
+}
+#footer {
+    background-color: #2f2f2f;
+    padding:50px 0px;
+    font-family: Times New Roman;
+}
+.column {
+    min-width: 400px;
+    display:inline-block; /*inline-block lets block elements keep their widths and heights but lines them up in a row*/
+    vertical-align: top; /*lines up the tops of each column*/
+    margin: 0, 300px;
+}
+#footer h4 {
+    color:white;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+#footer p {
+    color:white;
+}
+a {
+    color: #1abc9c;
+    text-decoration:none;
+}a:hover {
+    color: #F6A623;
+}

@@ -67,6 +67,12 @@ h1, h2, h3, h4 {
 p {
     line-height: 1.5;
 }
+.maps {
+    min-width: 400px;
+    display:inline-block;
+    vertical-align: top;
+    margin: 0, 100px;
+}
 #footer {
     background-color: #2f2f2f;
     padding:50px 0px;
